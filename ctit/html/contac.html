@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CTIT Contact Form</title>
+  <link rel="stylesheet" href="../css/style-contact.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;500;700;800&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Tajawal:wght@200;400;500;700;800&display=swap"
+            rel="stylesheet">
+        <!-- Fonts -->
+            <!-- Icon Page -->
+            <link rel="shortcut icon" type="image/x-icon" href="../imgs/logo.jpeg" />
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="header" style="background: none;">
+    <div class="container">
+      <div class="row-nav align-items-center justify-content-between" style="height: 37px;">
+        <div class="logo">
+          <img src="../imgs/logo.jpeg" alt="">
+        </div>
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html" data-en="home" data-ar="الصفحه الرئيسيه">home</a></li>
+            <li><a href="index.html#services" data-en="our services" data-ar="خدماتنا">our services</a></li>
+            <li><a href="clients.html" data-en="our clients" data-ar="عملائنا" id="clients">our clients</a>
+            </li>
+            <li><a href="pricing.html" data-en="pricing" data-ar=" الاسعار" id="pricing">pricing</a></li>
+            <li><a href="index.html#about" data-en="about us" data-ar="من نحن">about us</a></li>
+            <li><a href="contac.html" data-en="contact us" data-ar="اتصل بنا" id="contact" class="active">contact us</a>
+            </li>
+            <li class="language">
+
+              <div class="dropdown-lang">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <i class="fa fa-caret-down"></i>
+
+                <div class="dropdown-content">
+                  <button id="en">EN</button>
+                  <button id="ar">AR</button>
+                </div>
+              </div>
+
+
+
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <!-- contact1 -->
+
+
+
+  <div class="contact">
+    <div class="wrapper">
+      <h3 class="global-title text-center">Contact us</h3>
+      <div class="d-grid contact-view">
+        <div class="cont-details">
+
+
+          <div class="cont-top">
+
+            <div class="cont-left text-center">
+              <span class="fa fa-phone text-primary"></span>
+            </div>
+
+            <div class="cont-right">
+              <h6>Call Us</h6>
+              <p><a href="#">+966126458867</a></p>
+            </div>
+
+          </div>
+
+
+          <div class="cont-top margin-up">
+
+            <div class="cont-left text-center">
+              <span class="fa fa-envelope-o text-primary"></span>
+            </div>
+            <div class="cont-right">
+              <h6>Email Us</h6>
+              <p><a href="info@ctit.com.sa" class="mail">info@ctit.com.sa</a></p>
+            </div>
+
+          </div>
+
+
+          <div class="cont-top margin-up">
+            <div class="cont-left text-center">
+              <span class="fa fa-map-marker text-primary"></span>
+            </div>
+            <div class="cont-right">
+              <h6>Address</h6>
+              <p>Address here, Alwar Rajasthan India.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="map-content">
+          <form action="#" method="post">
+            <div class="twice-two">
+              <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
+              <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="">
+            </div>
+
+            <div class="twice">
+              <input type="phone" class="form-control" name="w3lphone" id="w3lphone" placeholder="phone"
+              required="">
+              </div>
+              <div>
+              <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject"
+                required="">
+            </div>
+            <div class="file">
+
+              <input type="file" name="w3lMessage" class="form-control" id="w3lMessage" placeholder="file" required=""
+                multiple style="color: #03a9f4;"></input>
+              <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+            </div>
+            <button type="submit" class="btn btn-contact">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <img class="watermark" src="../imgs/watermark3.png" style="width:87px;margin-top:-55px" />
+  </div>
+
+  <!-- /contact1 -->
+
+  <div class="chat">
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-12094357-fb8a-41f0-9c65-cdd6f3e08f1e"></div>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row-footer">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">Designing</a></li>
+            <li><a href="#">Network Cabling</a></li>
+            <li><a href="#">CCTV</a></li>
+            <li><a href="#">Hosting Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+  <script>
+    arabic.onclick = () => {
+      console.log('ok')
+      localStorage.setItem("lang", "arabic");
+      window.location.reload();
+      setLanguage("arabic");
+    };
+    english.onclick = () => {
+      localStorage.setItem("lang", "english");
+      window.location.reload();
+      setLanguage("english");
+    };
+  </script>
+</body>
+
+</html>
